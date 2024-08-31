@@ -1,0 +1,48 @@
+.nav-bar{
+    background-color: black;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
+.nav-bar a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+section{
+    height: 200px;  
+}
+.nav-bar button{
+    float: right;
+    border-radius: 1rem;
+}
+.side-navbar{
+    right: 0;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    background-color: grey;
+    position: fixed;
+    width: 25vw;
+    display: none;
+}
+.side-navbar ul li{
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom: solid 2px;
+    background-color: antiquewhite;
+}
+.side-navbar ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 1.7rem;
+}
+.side-navbar button{
+    border: none;
+    background-color:red;
+    color: white;
+    float: right;
+}

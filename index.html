@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav_bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div id="side-navbar" class="side-navbar">
+        <button onclick="closenav()">Close</button>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li>Blog</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <header class="nav-bar">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+        <button onclick="opennav()">Open</button>
+    </header>
+    <main>
+        <section >
+            <h1>Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quas adipisci inventore esse facere laborum iure minima porro nesciunt rerum debitis similique nam qui consectetur quis eius,<br> harum recusandae dolores laudantium!</p>
+        </section>      
+        <section>
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quas adipisci inventore esse facere laborum iure minima porro nesciunt rerum debitis similique nam qui consectetur quis eius,<br> harum recusandae dolores laudantium!</p>
+        </section>
+        <section >
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quas adipisci inventore esse facere laborum iure minima porro nesciunt rerum debitis similique nam qui consectetur quis eius,<br> harum recusandae dolores laudantium!</p>
+        </section>
+        <section>
+            <h1>Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quas adipisci inventore esse facere laborum iure minima porro nesciunt rerum debitis similique nam qui consectetur quis eius,<br> harum recusandae dolores laudantium!</p>
+        </section>
+        <section >
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quas adipisci inventore esse facere laborum iure minima porro nesciunt rerum debitis similique nam qui consectetur quis eius,<br> harum recusandae dolores laudantium!</p>
+        </section>
+    </main>
+    <script>
+        function opennav(){
+            document.getElementById("side-navbar").style.display="block"
+        }
+        function closenav(){
+            document.getElementById("side-navbar").style.display="none"
+        }
+    </script>
+    
+</body>
+</html>
